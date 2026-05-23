@@ -575,12 +575,6 @@ PageRankPro demonstrates practical understanding of:
 
 ---
 
-# 💼 Resume Bullet
-
-> Built PageRankPro, a production-grade search ranking simulator that models webpage authority using Markov chains, random walks, damping factors, and iterative convergence, featuring graph visualization, Streamlit analytics, Dockerized deployment, CI/CD automation, and end-to-end testing.
-
----
-
 # 👤 Author
 
 <p align="center">
