@@ -2,7 +2,7 @@
 
 # 🌐 PageRankPro 📊
 
-### Production-Grade Search Ranking Sim using Markov Chains, Random Walks & Graph Intelligence
+### Search Ranking Simulator Markov Chains, Random Walks & Graph Intelligence
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.11%2B-blue?logo=python">
