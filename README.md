@@ -1,4 +1,3 @@
-````markdown
 <div align="center">
 
 # 🌐 PageRankPro
@@ -26,7 +25,7 @@
 
 **PageRankPro** is a production-style implementation of the famous PageRank algorithm originally used by search engines to determine the importance of web pages.
 
-The system crawls interconnected HTML pages, constructs a directed web graph, simulates probabilistic web surfing behavior, computes ranking scores using both random sampling and iterative convergence, and visualizes the structure of the web graph.
+The system crawls interconnected HTML pages, constructs a directed web graph, simulates probabilistic web surfing behaviour, computes ranking scores using both random sampling and iterative convergence, and visualizes the structure of the web graph.
 
 Instead of remaining a simple academic assignment, PageRankPro expands the original CS50AI project into a modern engineering-grade platform with:
 
@@ -67,7 +66,7 @@ Its importance should depend on:
 3. The structure of the surrounding web graph
 4. The probability that a random user eventually lands on it
 
-PageRankPro solves this problem by modeling the internet as a probabilistic directed graph.
+PageRankPro solves this problem by modelling the internet as a probabilistic directed graph.
 
 The platform computes long-term visitation probabilities across linked pages and uses those probabilities to estimate page authority.
 
@@ -75,14 +74,14 @@ The platform computes long-term visitation probabilities across linked pages and
 
 # 🧠 How PageRank Works
 
-PageRankPro simulates the behavior of a **random web surfer**.
+PageRankPro simulates the behaviour of a **random web surfer**.
 
 At every step, the surfer has two choices:
 
 1. Follow one of the current page's links
 2. Randomly jump to another page
 
-This behavior is controlled using a **damping factor**.
+This behaviour is controlled using a **damping factor**.
 
 Example:
 
