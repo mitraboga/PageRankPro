@@ -592,7 +592,3 @@ PageRankPro demonstrates practical understanding of:
 </p>
 
 ---
-
-# 📜 License
-
-This project is licensed under the MIT License.
