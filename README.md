@@ -17,6 +17,8 @@
   <img src="https://img.shields.io/badge/Sentry-Observability-362D59?logo=sentry">
 </p>
 
+<img src="assets/PageRankProDemo.gif" alt="PageRankPro Streamlit Dashboard Demo" width="900">
+
 </div>
 
 ---
