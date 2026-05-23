@@ -1,0 +1,16 @@
+services:
+  pagerankpro:
+    build: .
+    image: pagerankpro:latest
+    ports:
+      - "8510:8501"
+    environment:
+      APP_ENV: local
+      PAGERANKPRO_LOG_LEVEL: INFO
+      SENTRY_DSN: ${SENTRY_DSN:-}
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
