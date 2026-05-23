@@ -2,6 +2,8 @@
 
 PageRankPro is a production-ready CS50AI-style PageRank simulator. It crawls a folder of linked HTML pages, builds a directed web graph, ranks pages with both random sampling and iterative convergence, compares the results, and visualizes the graph.
 
+For the complete project scope, including the production-grade additions, see [docs/project-scope.md](docs/project-scope.md).
+
 ## Problem
 
 Search engines need to decide which pages matter most. A page becomes important when other pages link to it, especially when those linking pages are important themselves. PageRankPro models that idea with probability, Markov chains, random walks, graph representation, and iterative optimization.
@@ -150,20 +152,29 @@ Exact sampling values can vary with sample count and random seed.
 
 ```text
 PageRankPro/
-├── app.py
-├── pagerankpro.py
-├── pyproject.toml
-├── requirements.txt
-├── corpus/
-│   ├── corpus0/
-│   └── corpus1/
-├── src/
-│   └── pagerankpro/
-│       ├── cli.py
-│       ├── core.py
-│       └── visualization.py
-└── tests/
-    └── test_core.py
+|-- app.py
+|-- pagerankpro.py
+|-- pyproject.toml
+|-- requirements.txt
+|-- requirements-dev.txt
+|-- Dockerfile
+|-- docker-compose.yml
+|-- corpus/
+|   |-- corpus0/
+|   `-- corpus1/
+|-- docs/
+|   |-- deployment.md
+|   `-- project-scope.md
+|-- src/
+|   `-- pagerankpro/
+|       |-- cli.py
+|       |-- core.py
+|       |-- observability.py
+|       `-- visualization.py
+`-- tests/
+    |-- e2e/
+    |-- integration/
+    `-- unit/
 ```
 
 ## CS50AI Concepts Applied
