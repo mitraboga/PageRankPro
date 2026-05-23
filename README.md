@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌐 PageRankPro 📊
+# 🌐 PageRankPro 📈
 
 ### Search Ranking Simulator Markov Chains, Random Walks & Graph Intelligence
 
