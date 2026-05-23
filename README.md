@@ -585,11 +585,13 @@ PageRankPro demonstrates practical understanding of:
 
 <p align="center">
   <b>Mitra Boga</b><br><br>
+
   <a href="https://www.linkedin.com/in/bogamitra/">
-    <img src="https://img.shields.io/badge/LinkedIn-Mitra_Boga-blue?logo=linkedin">
+    <img src="https://img.shields.io/badge/LinkedIn-Mitra_Boga-0077B5?style=for-the-badge&logo=linkedin">
   </a>
+
   <a href="https://x.com/techtraboga">
-    <img src="https://img.shields.io/badge/X-@techtraboga-black?logo=x">
+    <img src="https://img.shields.io/badge/X-@techtraboga-000000?style=for-the-badge&logo=x">
   </a>
 </p>
 
